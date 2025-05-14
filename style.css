@@ -1,0 +1,66 @@
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 1000;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Điều hướng */
+.dieuhuong {
+  display: inline-block;
+  width: 80%;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.dieuhuong img {
+  width: 10%;
+}
+
+/* Chú thích li */
+li {
+  display: inline;
+  margin-right: 20px;
+  list-style: none;
+}
+
+/* Lưới 2 cột */
+.luoi {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 20px;
+  margin: 20px 0;
+}
+
+/* Hình ảnh trong .luoi */
+.luoi img {
+  width: 100%;
+  height: auto;
+}
+
+/* Flex layout */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #e6f7ff;
+  padding: 20px;
+}
+
+.flex div {
+  flex: 1 1 30%;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
